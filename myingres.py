@@ -23,7 +23,7 @@ from typing import Dict, List, Any, Optional
 warnings.filterwarnings('ignore')
 
 # Configure Gemini API
-GEMINI_API_KEY = "AIzaSyBOrYGa8Aer07t_eXeNimb-VmqppgVZWEU"
+GEMINI_API_KEY = "Your_api_key_here"
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Set style for better visualizations
@@ -541,4 +541,5 @@ if __name__ == "__main__":
     print("- ingres_bot.predict_groundwater_metrics(...)")
     print("- ingres_bot.create_visualization('chart_type')")
     print("- ingres_bot.get_data_summary()")
+
     print("=" * 50)
